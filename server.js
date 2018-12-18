@@ -11,7 +11,7 @@ const userRoutes = require('./routes/userRoutes');
 const cartRoutes = require('./routes/cartRoutes');
 const orderRoutes = require('./routes/orderRoutes');
 const User = require('./models/User');
-const privates = require('./config/privates');
+
 
 const publicPath = path.join(__dirname, 'client', 'public');
 const port = process.env.PORT || 5000;
@@ -20,10 +20,10 @@ const app = express();
 const db = require("./config/prod"). mongoDBURI
 const sec = require("./config/prod").sessionSecret
 mongoose.connect(db)
-
-  .then(() => console.log("MongoDb Connected..."))
-  .catch(err => console.log(err));;
-
+  .then(() => console.log("MongoDb Connected..."));
+ 
+  const seedProduct=require('./seeds/products');
+  seedProduct();
 const urlencodedParser = bodyParser.urlencoded({ extended: true });
 
 app.use(express.static(publicPath));
@@ -49,4 +49,4 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(publicPath, 'index.html'));
 });
 
-app.listen(port, () => console.log('SERVER STARTED'));
+app.listen(port, () => console.log("Server Started on port", port));

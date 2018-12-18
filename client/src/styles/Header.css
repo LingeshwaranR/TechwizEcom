@@ -1,5 +1,9 @@
 .header > div {
   z-index: 0 !important;
+  margin-left: -13%;
+ width: 100%;
+ margin-right: -13.3%;
+
 }
 
 .title h1 {
@@ -8,7 +12,7 @@
 }
 
 .menu { 
-  margin-top: 5px;
+  margin-top: px;
 }
 
 .icon-menu {
