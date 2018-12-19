@@ -52,6 +52,7 @@ export class Header extends React.Component {
       <div className="header">
         <AppBar 
           className="title"
+          style={{background: '#2E3B55'}}
           title="TECHWIZ"
           onTitleClick={() => this.props.history.push('/')}
           showMenuIconButton={false}

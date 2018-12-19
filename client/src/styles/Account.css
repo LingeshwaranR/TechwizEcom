@@ -11,7 +11,7 @@
 
 .loader {
   margin: 20px auto;
-  color: #00BCD4;
+  color: #2E3B55;
   text-align: center;
 }
 
@@ -47,7 +47,7 @@
 
 .orders th {
   padding: 5px 5px;
-  background-color: #00BCD4;
+  background-color: #2E3B55;
   color: white;
   text-align: left;
 }
@@ -55,7 +55,7 @@
 .orders td {
   padding: 12px 5px;
   text-align: left;
-  border-bottom: 1px solid #00BCD4;
+  border-bottom: 1px solid #2E3B55;
 }
 
 .orders td:nth-child(4) {

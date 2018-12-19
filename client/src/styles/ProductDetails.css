@@ -34,14 +34,14 @@
 }
 
 .product-info th {
-  background-color: #00BCD4;
+  background-color: rgb(81, 103, 146);
   color: white;
 }
 
 .product-info th, .product-info td {
   padding: 3px;
   text-align: left;
-  border: 1px solid #80DEEA;
+  border: 1px solid rgb(81, 103, 146);
 }
 
 .price-text {
@@ -52,7 +52,7 @@
 .price-num {
   font-size: 30px;
   font-weight: bold;
-  color: #64DD17;
+  color: rgb(22, 21, 97);
 }
 
 .product-handle {

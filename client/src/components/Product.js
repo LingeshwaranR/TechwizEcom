@@ -26,8 +26,10 @@ const Product = ({ item }) => (
           <h2>{numeral(item.info.price).format('$0,0.00')}</h2>
         </div>
         <RaisedButton
+
           containerElement={<Link to={`/product/${item._id}`} />}
           className="btn"
+
           label="See more"
           labelPosition="before"
           primary={true}

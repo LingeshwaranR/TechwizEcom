@@ -22,8 +22,8 @@ const sec = require("./config/prod").sessionSecret
 mongoose.connect(db)
   .then(() => console.log("MongoDb Connected..."));
  
-  const seedProduct=require('./seeds/products');
-  seedProduct();
+const seedProduct=require('./seeds/products');
+seedProduct();
 const urlencodedParser = bodyParser.urlencoded({ extended: true });
 
 app.use(express.static(publicPath));
@@ -45,7 +45,7 @@ app.use('/api/user', userRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/order', orderRoutes);
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(path.join(publicPath, 'index.html'));
 });
 

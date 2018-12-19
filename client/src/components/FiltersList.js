@@ -19,7 +19,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="Price"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="< $250" name="priceRange" value="<250" onCheck={this.handleCheck} />,
@@ -31,7 +31,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="Brand"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="Samsung" name="brand" value="samsung" onCheck={this.handleCheck} />,
@@ -44,7 +44,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="Color"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="Black" name="color" value="black" onCheck={this.handleCheck} />,
@@ -55,7 +55,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="OS"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="Android" name="os" value="android" onCheck={this.handleCheck} />,
@@ -65,7 +65,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="Internal memory"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="16GB" name="internalMemory" value="16" onCheck={this.handleCheck} />,
@@ -77,7 +77,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="RAM"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="1GB" name="ram" value="1" onCheck={this.handleCheck} />,
@@ -89,7 +89,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="Display size"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="4.5''" name="displaySize" value="4.5" onCheck={this.handleCheck} />,
@@ -103,7 +103,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="Display resolution"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="540x960" name="displayResolution" value="540x960" onCheck={this.handleCheck} />,
@@ -117,7 +117,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="Camera"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="8Mpix" name="camera" value="8" onCheck={this.handleCheck} />,
@@ -129,7 +129,7 @@ export class FiltersList extends React.Component {
           <ListItem 
             className="listItem"
             primaryText="CPU"
-            initiallyOpen={false}
+            initiallyOpen={true}
             primaryTogglesNestedList={true}
             nestedItems={[
               <Checkbox className="checkbox" label="Quad Core" name="cpu" value="quad_core" onCheck={this.handleCheck} />,

@@ -1,6 +1,6 @@
 .loader {
   margin-top: 150px;
-  color: #00BCD4;
+  color: #2E3B55;
   text-align: center;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .products {
-  width: 78%;
+  width: 82%;
   margin-top: 90px;
   margin-bottom: 40px;
 }
@@ -29,15 +29,21 @@
 .products-handle .filters {
   width: 20%;
   text-align: center;
+
 }
 
 .products-handle .filters .btn {
   width: 150px;
   margin: 5px;
+
+
 }
 
 .products-handle .set-filters {
   display: none;
+ 
+
+
 }
 
 .products-handle .products-sort {
@@ -70,6 +76,7 @@
 
   .products-handle .set-filters {
     display: block;
+  
   }
 
   .products-handle .products-sort span {

@@ -25,7 +25,7 @@
 
 .checkout-modal h1 {
   margin-bottom: 60px;
-  color: #00BCD4;
+  color: #2E3B55;
 }
 
 .checkout-modal table {
@@ -36,7 +36,7 @@
 
 .checkout-modal th {
   padding: 5px 5px;
-  background-color: #00BCD4;
+  background-color: #2E3B55;
   color: white;
   text-align: left;
 }
@@ -53,7 +53,7 @@
 .checkout-modal .total span {
   font-size: 26px;
   font-weight: bold;
-  color: #64DD17;
+  color: rgb(8, 20, 54);
 }
 
 .checkout-modal .btns {

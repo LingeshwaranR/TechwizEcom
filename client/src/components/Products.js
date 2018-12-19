@@ -47,9 +47,10 @@ export class Products extends React.Component {
             <span><b>Products found: </b>{this.props.catalog.length}</span>
           </div>
           <div className="filters">
-            <div className="set-filters">
+            <div className="set-filters" >
               <RaisedButton
                 className="btn"
+                
                 label="Filter products"
                 onClick={this.toggleDrawer}
                 primary={true}

@@ -30,7 +30,7 @@
 
 .cart-info .total {
   font-size: 22px;
-  color: #64DD17;
+  color: rgb(13, 12, 75);
 }
 
 .cart-info .btns {
@@ -57,7 +57,7 @@
 
 .cart-items th {
   padding: 5px 5px;
-  background-color: #00BCD4;
+  background-color: #2E3B55;
   color: white;
   text-align: left;
 }
@@ -73,7 +73,7 @@
 .cart-items td {
   padding: 12px 5px;
   text-align: left;
-  border-bottom: 1px solid #00BCD4;
+  border-bottom: 1px solid #2E3B55;
 }
 
 .cart-items td:nth-child(4) {
