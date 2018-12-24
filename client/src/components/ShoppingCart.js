@@ -1,7 +1,11 @@
 import React from 'react';
+
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Header from './Header';
+import MainHeader from './MainHeader';
+
+
 import Account from './Account';
 import Cart from './Cart';
 import Homepage from './Homepage';
@@ -12,9 +16,13 @@ import '../styles/ShoppingCart.css';
 
 const ShoppingCart = () => (
   <BrowserRouter>
+    
+      
     <MuiThemeProvider>
       <div className="container">
-        <Route component={Header} />
+      <Route component={MainHeader} />
+
+        
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route path="/account" component={Account} />

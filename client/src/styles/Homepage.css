@@ -2,16 +2,16 @@
   display: flex;
   justify-content: space-between;
   min-height: 100vh;
-  margin-top: -72px;
+  margin-top: 0px;
   border: 1px solid #ffffff00;
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
 }
 
 .filtersList-desktop {
   width: 16.5%;
   height:100%;
   min-height: auto;
-  margin-top: 90px;
+  margin-top: 20px;
   margin-bottom: 40px;
   background-color: #ffffff;
 }
